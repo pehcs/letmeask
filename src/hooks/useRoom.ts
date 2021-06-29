@@ -1,9 +1,7 @@
 import { useEffect, useState } from "react"
 import { database } from "../services/firebase"
 import { useAuth } from "./useAuth"
-type RoomParams = {
-    id: string
-}
+
 type FirebaseQuestions = Record<string, {
     author: {
         name: string
